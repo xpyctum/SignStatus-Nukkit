@@ -34,7 +34,6 @@ public class Refresher extends PluginTask {
         ConfigSection data = owner.format.getSection("format");
         ConfigSection signs = owner.signs.getRootSection();
 
-        //owner.getLogger().alert(signs.toString());
         signs.entrySet().forEach(entry ->{
             List<Map> cf = signs.getMapList(entry.getKey());
             for(Map joinable : cf){

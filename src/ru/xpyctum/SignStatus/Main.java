@@ -123,7 +123,6 @@ public class Main extends PluginBase implements Listener{
                 Level level = this.getServer().getLevelByName(level_name);
                 if(level != null) {
                     if (x == pos.getX() && y == pos.getY() && z == pos.getZ() && Objects.equals(level.getName(), level_name)){
-                        this.getLogger().info(entry.getKey().toString());
                         signs.remove(entry.getKey().toString());
                         this.signs.save();
                     }
