@@ -1,0 +1,6 @@
+name: SignStatus
+main: ru.xpyctum.SignStatus.Main
+version: 1.0.0
+api: ["1.0.0"]
+author: xpyctum
+description: "Powerful sign status plugin"
