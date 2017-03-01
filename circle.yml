@@ -1,5 +1,6 @@
 test:
   override:
     - /bin/true
+general:
   artifacts:
     - "jars" # main folder
