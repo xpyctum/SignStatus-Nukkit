@@ -3,12 +3,13 @@
 #####Watch server status on a simple sign. 
 
 ###Download
-You can download the latest version from [Releases](https://github.com/xpyctum/SignStatus-Nukkit/releases)
+ - [Releases](https://github.com/xpyctum/SignStatus-Nukkit/releases)
+ - [![CircleCI](https://circleci.com/gh/xpyctum/SignStatus-Nukkit.svg?style=svg)](https://circleci.com/gh/xpyctum/SignStatus-Nukkit) Or CicleCI (**login required!**)
 
 ###Config
 Name | Value | Description
---- | --- | ---
-time | 1 | Time to refresh signs. (In seconds)
+---  | ---   | ---
+time | 1     | Time to refresh signs. (In seconds)
 In translations.yml you can set your texts.
 
 ###Support
