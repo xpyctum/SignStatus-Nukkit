@@ -1,6 +1,5 @@
 test:
   override:
     - /bin/true
-general:
-  artifacts:
-    - "jars" # main folder
+  post:
+    - cp -R ./* $CIRCLE_ARTIFACTS
