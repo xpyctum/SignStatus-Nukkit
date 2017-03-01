@@ -2,4 +2,10 @@ test:
   override:
     - /bin/true
   post:
+    - mvn clean
+    - mvn package
     - cp -R ./* $CIRCLE_ARTIFACTS
+    
+machine:
+  java:
+    version: oraclejdk8    
