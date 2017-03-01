@@ -4,7 +4,7 @@ test:
   post:
     - mvn clean
     - mvn package
-    - cp -R ./* $CIRCLE_ARTIFACTS
+    - cp -R ./target/* $CIRCLE_ARTIFACTS
     
 machine:
   java:
